@@ -14,6 +14,10 @@ export type BlogpostProps = {
 	description: string;
 };
 
+export type SocialIconsProps = {
+	fillColor: string;
+};
+
 export type ButtonProps = {
 	target: string;
 	btnText: string;

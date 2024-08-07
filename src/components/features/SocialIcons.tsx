@@ -1,8 +1,6 @@
 import Link from "next/link";
 
-export type SocialIconsProps = {
-	fillColor: string;
-};
+import { SocialIconsProps } from "@/types/types";
 
 const SocialIcons = ({ fillColor }: SocialIconsProps) => {
 	return (

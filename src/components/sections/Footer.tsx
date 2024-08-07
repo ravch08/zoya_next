@@ -11,7 +11,7 @@ const Footer = () => {
 				<Link href="/">
 					<Image src="/assets/logo-light.png" alt="Zoya" width={80} height={30} />
 				</Link>
-				<SocialIcons />
+				<SocialIcons fillColor="white" />
 				<ScrollTop />
 			</div>
 		</footer>
