@@ -1,5 +1,9 @@
 import { BlogAside, BlogMain, PageBanner } from "../../components/utils/helper";
 
+export const metadata = {
+	title: "Blogs | My Traveling Blog",
+};
+
 const Blogs = () => {
 	return (
 		<>

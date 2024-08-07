@@ -1,5 +1,9 @@
 import { PageBanner } from "../../components/utils/helper";
 
+export const metadata = {
+	title: "Contacts | My Traveling Blog",
+};
+
 const Contact = () => {
 	return (
 		<main>

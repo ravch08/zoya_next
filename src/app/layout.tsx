@@ -9,7 +9,7 @@ import "../styles/index.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-	title: "Zoya | Travel Blogs",
+	title: "Zoya | Traveling Blog",
 	description: "Welcome to my blog where I share my traveling journey.",
 };
 

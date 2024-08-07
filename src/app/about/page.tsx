@@ -6,6 +6,10 @@ import {
 	PageBanner,
 } from "../../components/utils/helper";
 
+export const metadata = {
+	title: "About Zoya | My Traveling Blog",
+};
+
 const About = () => {
 	return (
 		<main>

@@ -1,6 +1,10 @@
 import Link from "next/link";
 import { PageBanner } from "../../../components/utils/helper";
 
+export const metadata = {
+	title: "Login | Zoya's Traveling Blog",
+};
+
 const Login = () => {
 	return (
 		<main>
