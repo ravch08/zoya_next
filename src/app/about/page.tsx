@@ -4,7 +4,7 @@ import {
 	MyAssistants,
 	Newsletter,
 	PageBanner,
-} from "../../components/utils/helper";
+} from "../../components/lib/helper";
 
 export const metadata = {
 	title: "About Zoya | My Traveling Blog",

@@ -56,10 +56,10 @@ section {
 	@apply flex;
 }
 .nav-link {
-	@apply px-4 py-8 font-sans text-xs;
+	@apply px-4 py-8 font-sans text-xs uppercase;
 
 	&.active {
-		@apply font-semibold text-primary-600;
+		@apply text-primary-600;
 	}
 }
 

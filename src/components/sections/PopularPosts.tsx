@@ -1,11 +1,11 @@
-import { blogPosts } from "../utils/data";
-import { BlogItem, Button, SectionHeading } from "../utils/helper";
+import { blogPosts } from "../lib/data";
+import { BlogItem, Button, SectionHeading } from "../lib/helper";
 
 const PopularPosts = () => {
 	const popularPosts = blogPosts?.filter((post) => post.popular);
 
 	return (
-		<section aria-labelledby="Latest Posts">
+		<section aria-labelledby="Popular Posts">
 			<div className="container">
 				<SectionHeading date="APRIL 19, 2021" heading="Popular Posts" />
 

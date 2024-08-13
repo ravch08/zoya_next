@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
 
-import { instaPosts } from "../utils/data";
+import { instaPosts } from "../lib/data";
 
 const InstaPosts = () => {
 	return (

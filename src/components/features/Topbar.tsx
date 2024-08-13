@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { SocialIcons } from "../utils/helper";
+import { SocialIcons } from "../lib/helper";
 
 const Topbar = () => {
 	return (

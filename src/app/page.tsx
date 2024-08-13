@@ -5,7 +5,7 @@ import {
 	LatestPosts,
 	Newsletter,
 	PopularPosts,
-} from "../components/utils/helper";
+} from "../components/lib/helper";
 
 export default function Home() {
 	return (

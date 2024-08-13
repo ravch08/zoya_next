@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { ScrollTop, SocialIcons } from "../utils/helper";
+import { ScrollTop, SocialIcons } from "../lib/helper";
 
 const Footer = () => {
 	return (

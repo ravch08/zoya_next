@@ -13,7 +13,7 @@ const BlogItem = ({ id, imgSrc, author, heading, category, description }: Blogpo
 						height={400}
 						src={imgSrc}
 						alt={heading}
-						className="scale-100 w-full transition-transform duration-500 ease-in-out hover:scale-105"
+						className="translate-y-0 w-full transition-transform duration-300 ease-in-out hover:-translate-y-2"
 					/>
 				</figure>
 			</Link>

@@ -8,11 +8,11 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 
-import { bannerItems } from "../utils/data";
+import { bannerItems } from "../lib/data";
 
 const Banner = () => {
 	return (
-		<section className="p-0">
+		<section className="p-0" aria-labelledby="Banner Carousel">
 			<Swiper
 				loop={true}
 				speed={1000}

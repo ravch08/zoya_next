@@ -1,5 +1,5 @@
-import { blogPosts } from "../utils/data";
-import { BlogItem, SectionHeading } from "../utils/helper";
+import { blogPosts } from "../lib/data";
+import { BlogItem, SectionHeading } from "../lib/helper";
 
 const LatestPosts = () => {
 	const latestPosts = blogPosts.filter((post) => post.latest);

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { PageBanner } from "../../../components/utils/helper";
+import { PageBanner } from "../../../components/lib/helper";
 
 export const metadata = {
 	title: "Register | Zoya's Traveling Blog",

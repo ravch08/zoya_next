@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { BlogpostProps } from "../../types/types";
-import { Button } from "../utils/helper";
+import { Button } from "../lib/helper";
 
 const BlogPageItem = ({ id, imgSrc, author, heading, category, description }: BlogpostProps) => {
 	return (

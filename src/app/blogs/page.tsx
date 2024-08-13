@@ -1,4 +1,4 @@
-import { BlogAside, BlogMain, PageBanner } from "../../components/utils/helper";
+import { BlogAside, BlogMain, PageBanner } from "../../components/lib/helper";
 
 export const metadata = {
 	title: "Blogs | My Traveling Blog",

@@ -4,9 +4,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-import { SearchBar } from "../utils/helper";
+import { usePathname } from "next/navigation";
+import { navLinks } from "../lib/data";
+import { SearchBar } from "../lib/helper";
 
 const Navbar = () => {
+	const pathname = usePathname();
 	const [sticky, setSticky] = useState("");
 
 	const stickyHandler = () => {
@@ -29,27 +32,16 @@ const Navbar = () => {
 						</Link>
 
 						<ul className="flex gap-2">
-							<li className="nav-item">
-								<Link href="/" className="nav-link">
-									HOME
-								</Link>
-							</li>
-							<li className="nav-item">
-								<Link href="about" className="nav-link">
-									ABOUT
-								</Link>
-							</li>
-							<li className="nav-item">
-								<Link href="blogs" className="nav-link">
-									BLOGS
-								</Link>
-							</li>
-
-							<li className="nav-item">
-								<Link href="contact" className="nav-link">
-									CONTACT
-								</Link>
-							</li>
+							{navLinks?.map((navLink) => (
+								<li className="nav-item" key={navLink.id}>
+									<Link
+										href={navLink.link}
+										className={`nav-link ${pathname === navLink.link ? "active" : ""}`}
+									>
+										{navLink.name}
+									</Link>
+								</li>
+							))}
 						</ul>
 					</nav>
 

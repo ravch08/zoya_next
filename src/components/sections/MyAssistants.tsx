@@ -1,5 +1,5 @@
-import AssistantItem from "../features/AssistantItem";
-import { assistants } from "../utils/data";
+import { assistants } from "../lib/data";
+import { AssistantItem } from "../lib/helper";
 
 const MyAssistants = () => {
 	return (

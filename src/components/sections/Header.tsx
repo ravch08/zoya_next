@@ -1,4 +1,4 @@
-import { Navbar, Topbar } from "../utils/helper";
+import { Navbar, Topbar } from "../lib/helper";
 
 const Header = () => {
 	return (

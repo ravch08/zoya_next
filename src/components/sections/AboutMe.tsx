@@ -1,9 +1,9 @@
 import Image from "next/image";
-import SocialIcons from "../features/SocialIcons";
+import { SocialIcons } from "../lib/helper";
 
 const AboutMe = () => {
 	return (
-		<section>
+		<section aria-labelledby="About Zoya">
 			<div className="container grid grid-cols-1 lg:grid-cols-3 gap-6 place-items-center">
 				<div className="flex col-span-2 flex-col">
 					<span className="primary-span">LIFESTYLE BLOGGER</span>

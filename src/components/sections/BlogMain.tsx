@@ -1,5 +1,5 @@
-import { blogPosts } from "../utils/data";
-import { BlogPageItem } from "../utils/helper";
+import { blogPosts } from "../lib/data";
+import { BlogPageItem } from "../lib/helper";
 
 const BlogMain = () => {
 	return (
