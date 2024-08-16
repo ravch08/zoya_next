@@ -91,141 +91,6 @@ export const assistants = [
 	},
 ];
 
-export const blogPosts = [
-	{
-		id: 1,
-		imgSrc: "/assets/post-01.jpg",
-		latest: true,
-		popular: false,
-		category: "Travel",
-		author: "NICOLE CUNNINGHAM",
-		heading: "Ten of our favourite sunglasses this season",
-		description:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequuntur tempore numquam iusto nisi dolorum! Magnam beatae earum id quasi voluptas. Eum quam, laboriosam consequuntur accusamus illum, esse perspiciatis fuga sed fugit autem incidunt necessitatibus modi voluptatibus omnis, ab facere adipisci tenetur at! Cumque, autem recusandae. Odit aliquid iusto ipsa.",
-	},
-	{
-		id: 2,
-		imgSrc: "/assets/post-02.jpg",
-		latest: true,
-		popular: false,
-		category: "Travel",
-		author: "NICOLE CUNNINGHAM",
-		heading: "Vintage camper van for a summer adventure",
-		description:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequuntur tempore numquam iusto nisi dolorum! Magnam beatae earum id quasi voluptas. Eum quam, laboriosam consequuntur accusamus illum, esse perspiciatis fuga sed fugit autem incidunt necessitatibus modi voluptatibus omnis, ab facere adipisci tenetur at! Cumque, autem recusandae. Odit aliquid iusto ipsa.",
-	},
-	{
-		id: 3,
-		imgSrc: "/assets/post-03.jpg",
-		latest: true,
-		popular: false,
-		category: "Travel",
-		author: "NICOLE CUNNINGHAM",
-		heading: "Riding camels through the Sahara Desert",
-		description:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequuntur tempore numquam iusto nisi dolorum! Magnam beatae earum id quasi voluptas. Eum quam, laboriosam consequuntur accusamus illum, esse perspiciatis fuga sed fugit autem incidunt necessitatibus modi voluptatibus omnis, ab facere adipisci tenetur at! Cumque, autem recusandae. Odit aliquid iusto ipsa.",
-	},
-	{
-		id: 4,
-		imgSrc: "/assets/post-04.jpg",
-		latest: true,
-		popular: false,
-		category: "Travel",
-		author: "NICOLE CUNNINGHAM",
-		heading: "A tour through the old Moroccan city",
-		description:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequuntur tempore numquam iusto nisi dolorum! Magnam beatae earum id quasi voluptas. Eum quam, laboriosam consequuntur accusamus illum, esse perspiciatis fuga sed fugit autem incidunt necessitatibus modi voluptatibus omnis, ab facere adipisci tenetur at! Cumque, autem recusandae. Odit aliquid iusto ipsa.",
-	},
-	{
-		id: 5,
-		imgSrc: "/assets/post-05.jpg",
-		latest: true,
-		popular: false,
-		category: "Travel",
-		author: "NICOLE CUNNINGHAM",
-		heading: "Top five perfumes for a summer holiday",
-		description:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequuntur tempore numquam iusto nisi dolorum! Magnam beatae earum id quasi voluptas. Eum quam, laboriosam consequuntur accusamus illum, esse perspiciatis fuga sed fugit autem incidunt necessitatibus modi voluptatibus omnis, ab facere adipisci tenetur at! Cumque, autem recusandae. Odit aliquid iusto ipsa.",
-	},
-	{
-		id: 6,
-		imgSrc: "/assets/post-06.jpg",
-		latest: true,
-		popular: false,
-		category: "Travel",
-		author: "NICOLE CUNNINGHAM",
-		heading: "The best breakfast spots in Istanbul, Turkey",
-		description:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequuntur tempore numquam iusto nisi dolorum! Magnam beatae earum id quasi voluptas. Eum quam, laboriosam consequuntur accusamus illum, esse perspiciatis fuga sed fugit autem incidunt necessitatibus modi voluptatibus omnis, ab facere adipisci tenetur at! Cumque, autem recusandae. Odit aliquid iusto ipsa.",
-	},
-	{
-		id: 7,
-		imgSrc: "/assets/post-07.jpg",
-		latest: false,
-		popular: true,
-		category: "Travel",
-		author: "NICOLE CUNNINGHAM",
-		heading: "Ten of our favourite sunglasses this season",
-		description:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequuntur tempore numquam iusto nisi dolorum! Magnam beatae earum id quasi voluptas. Eum quam, laboriosam consequuntur accusamus illum, esse perspiciatis fuga sed fugit autem incidunt necessitatibus modi voluptatibus omnis, ab facere adipisci tenetur at! Cumque, autem recusandae. Odit aliquid iusto ipsa.",
-	},
-	{
-		id: 8,
-		imgSrc: "/assets/post-08.jpg",
-		latest: false,
-		popular: true,
-		category: "Travel",
-		author: "NICOLE CUNNINGHAM",
-		heading: "Ten of our favourite sunglasses this season",
-		description:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequuntur tempore numquam iusto nisi dolorum! Magnam beatae earum id quasi voluptas. Eum quam, laboriosam consequuntur accusamus illum, esse perspiciatis fuga sed fugit autem incidunt necessitatibus modi voluptatibus omnis, ab facere adipisci tenetur at! Cumque, autem recusandae. Odit aliquid iusto ipsa.",
-	},
-	{
-		id: 9,
-		imgSrc: "/assets/post-09.jpg",
-		latest: false,
-		popular: true,
-		category: "Travel",
-		author: "NICOLE CUNNINGHAM",
-		heading: "Ten of our favourite sunglasses this season",
-		description:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequuntur tempore numquam iusto nisi dolorum! Magnam beatae earum id quasi voluptas. Eum quam, laboriosam consequuntur accusamus illum, esse perspiciatis fuga sed fugit autem incidunt necessitatibus modi voluptatibus omnis, ab facere adipisci tenetur at! Cumque, autem recusandae. Odit aliquid iusto ipsa.",
-	},
-	{
-		id: 10,
-		imgSrc: "/assets/post-10.jpg",
-		latest: false,
-		popular: true,
-		category: "Travel",
-		author: "NICOLE CUNNINGHAM",
-		heading: "Ten of our favourite sunglasses this season",
-		description:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequuntur tempore numquam iusto nisi dolorum! Magnam beatae earum id quasi voluptas. Eum quam, laboriosam consequuntur accusamus illum, esse perspiciatis fuga sed fugit autem incidunt necessitatibus modi voluptatibus omnis, ab facere adipisci tenetur at! Cumque, autem recusandae. Odit aliquid iusto ipsa.",
-	},
-	{
-		id: 11,
-		imgSrc: "/assets/post-11.jpg",
-		latest: false,
-		popular: true,
-		category: "Travel",
-		author: "NICOLE CUNNINGHAM",
-		heading: "Ten of our favourite sunglasses this season",
-		description:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequuntur tempore numquam iusto nisi dolorum! Magnam beatae earum id quasi voluptas. Eum quam, laboriosam consequuntur accusamus illum, esse perspiciatis fuga sed fugit autem incidunt necessitatibus modi voluptatibus omnis, ab facere adipisci tenetur at! Cumque, autem recusandae. Odit aliquid iusto ipsa.",
-	},
-	{
-		id: 12,
-		imgSrc: "/assets/post-12.jpg",
-		latest: false,
-		popular: true,
-		category: "Travel",
-		author: "NICOLE CUNNINGHAM",
-		heading: "Ten of our favourite sunglasses this season",
-		description:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequuntur tempore numquam iusto nisi dolorum! Magnam beatae earum id quasi voluptas. Eum quam, laboriosam consequuntur accusamus illum, esse perspiciatis fuga sed fugit autem incidunt necessitatibus modi voluptatibus omnis, ab facere adipisci tenetur at! Cumque, autem recusandae. Odit aliquid iusto ipsa.",
-	},
-];
-
 export const navLinks = [
 	{
 		id: 1,
@@ -247,6 +112,48 @@ export const navLinks = [
 		link: "/contact",
 		name: "Contact",
 	},
+	{
+		id: 5,
+		link: "/create-blog",
+		name: "Create",
+	},
 ];
 
-// category = "Travel", "Inspiration", "Fashion", "Beauty", "Entertainment"
+export const categories = [
+	{
+		id: 1,
+		category: "Travel",
+		link: "/categories/travel",
+		imgSrc: "/assets/insta-post-02.jpg",
+	},
+	{
+		id: 2,
+		category: "Entertainment",
+		link: "/categories/entertainment",
+		imgSrc: "/assets/insta-post-05.jpg",
+	},
+	{
+		id: 3,
+		category: "Inspiration",
+		link: "/categories/inspiration",
+		imgSrc: "/assets/insta-post-03.jpg",
+	},
+	{
+		id: 4,
+		category: "Interior",
+		link: "/categories/interior",
+		imgSrc: "/assets/insta-post-04.jpg",
+	},
+	{
+		id: 5,
+		category: "Lifestyle",
+		link: "/categories/lifestyle",
+		imgSrc: "/assets/insta-post-06.jpg",
+	},
+	{
+		id: 6,
+		category: "Fashion",
+		link: "/categories/fashion",
+		imgSrc: "/assets/insta-post-01.jpg",
+	},
+];

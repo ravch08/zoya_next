@@ -6,17 +6,19 @@ export const metadata = {
 
 const Blogs = () => {
 	return (
-		<>
+		<main>
 			<PageBanner
 				title="Blogs"
 				imgSrc="/assets/banner-03.jpg"
 				description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, dignissimos!"
 			/>
-			<div className="container flex items-start justify-between gap-12 py-20">
-				<BlogMain />
-				<BlogAside />
+			<div className="container mx-auto py-16">
+				<div className="grid grid-cols-1 gap-12 md:grid-cols-3 lg:grid-cols-4">
+					<BlogMain />
+					<BlogAside />
+				</div>
 			</div>
-		</>
+		</main>
 	);
 };
 

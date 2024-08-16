@@ -1,6 +1,7 @@
 import {
 	Banner,
 	BannerQuote,
+	CategoryList,
 	InstaPosts,
 	LatestPosts,
 	Newsletter,
@@ -11,6 +12,7 @@ export default function Home() {
 	return (
 		<main>
 			<Banner />
+			<CategoryList />
 			<LatestPosts />
 			<BannerQuote />
 			<PopularPosts />
