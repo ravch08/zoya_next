@@ -2,9 +2,9 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
-import { usePathname } from "next/navigation";
 import { navLinks } from "../lib/data";
 import { Navlink, SearchBar } from "../lib/helper";
 
@@ -28,7 +28,7 @@ const Navbar = () => {
 				<div className="flex items-center justify-between">
 					<nav className="flex items-center gap-12">
 						<Link href="/">
-							<Image src="/assets/logo-dark.png" alt="Zoya" width={100} height={40} />
+							<Image src="/assets/logo-dark.png" alt="Zoya" width={96} height={26} />
 						</Link>
 
 						<ul className="flex gap-2">

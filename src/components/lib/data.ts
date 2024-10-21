@@ -108,11 +108,6 @@ export const navLinks = [
 		name: "Blog",
 	},
 	{
-		id: 4,
-		link: "/contact",
-		name: "Contact",
-	},
-	{
 		id: 5,
 		link: "/create-blog",
 		name: "Create",

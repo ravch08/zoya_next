@@ -9,7 +9,7 @@ const Footer = () => {
 			<div className="flex-between container text-xs font-light text-white">
 				<span>© 2023 ZOYA. All Rights Reserved.</span>
 				<Link href="/">
-					<Image src="/assets/logo-light.png" alt="Zoya" width={80} height={30} />
+					<Image src="/assets/logo-light.png" alt="Zoya" width={96} height={26} />
 				</Link>
 				<SocialIcons fillColor="white" />
 				<ScrollTop />

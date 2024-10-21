@@ -33,7 +33,7 @@ const AboutMe = () => {
 					<hr className="mt-12" />
 				</div>
 
-				<Image alt="user" width={300} height={300} src="/assets/user.png" className="col-span-1" />
+				<Image alt="user" width={300} height={338} src="/assets/user.png" className="col-span-1" />
 			</div>
 
 			<div className="container pt-8 flex items-center gap-4">

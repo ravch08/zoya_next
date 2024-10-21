@@ -1,7 +1,7 @@
 import { Suspense } from "react";
 
+import { BlogProps } from "@/types/types";
 import { getBlogs } from "@/utils/getData";
-import { BlogProps } from "@/utils/model";
 import { BlogItem } from "../lib/helper";
 
 const BlogMain = async () => {

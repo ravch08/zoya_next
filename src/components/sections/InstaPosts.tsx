@@ -12,7 +12,6 @@ const InstaPosts = () => {
 	return (
 		<section aria-labelledby="Instagram Posts" className="relative p-4">
 			<Swiper
-				loop={true}
 				speed={1500}
 				spaceBetween={10}
 				grabCursor={true}
@@ -20,9 +19,11 @@ const InstaPosts = () => {
 				centeredSlides={false}
 				breakpoints={{
 					768: {
+						loop: true,
 						slidesPerView: 1,
 					},
 					1024: {
+						loop: true,
 						slidesPerView: 3,
 					},
 					1400: {

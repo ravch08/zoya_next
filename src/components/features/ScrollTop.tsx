@@ -1,16 +1,13 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 
 const ScrollTop = () => {
-	const [scroller, setScroller] = useState("");
+	const [isVisible, setIsVisible] = useState(false);
 
-	const scrollClassHandler = () => {
-		const scrollClass = window.scrollY > 150 ? "scrollTop scrollShow" : "scrollTop";
-		setScroller(scrollClass);
-	};
+	const handleScroll = useCallback(() => setIsVisible(window.scrollY > 350), []);
 
-	const scrollHandler = () => {
+	const scrollToTop = () => {
 		window.scrollTo({
 			top: 0,
 			behavior: "smooth",
@@ -18,16 +15,18 @@ const ScrollTop = () => {
 	};
 
 	useEffect(() => {
-		window.addEventListener("scroll", scrollClassHandler);
-		return () => window.removeEventListener("scroll", scrollClassHandler);
-	}, []);
+		window.addEventListener("scroll", handleScroll);
+		return () => window.removeEventListener("scroll", handleScroll);
+	}, [handleScroll]);
+
+	const scrollTopStyles = `scrollTop ${isVisible ? "scale-100" : "scale-0"}`;
 
 	return (
-		<div className={scroller} onClick={scrollHandler}>
-			<svg viewBox="0 0 24 24" className="h-4 w-4" xmlns="http://www.w3.org/2000/svg">
+		<div className={scrollTopStyles} onClick={scrollToTop}>
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" className="h-5 w-5">
 				<path
 					fillRule="evenodd"
-					d="M11.47 7.72a.75.75 0 011.06 0l7.5 7.5a.75.75 0 11-1.06 1.06L12 9.31l-6.97 6.97a.75.75 0 01-1.06-1.06l7.5-7.5z"
+					d="M9.47 6.47a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 1 1-1.06 1.06L10 8.06l-3.72 3.72a.75.75 0 0 1-1.06-1.06l4.25-4.25Z"
 					clipRule="evenodd"
 				/>
 			</svg>

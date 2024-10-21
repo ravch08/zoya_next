@@ -37,6 +37,7 @@ const Banner = () => {
 						<div className="banner-item">
 							<figure className="relative">
 								<Image
+									priority
 									width={1000}
 									height={1000}
 									className="w-full"
